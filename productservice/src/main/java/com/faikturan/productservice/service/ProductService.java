@@ -4,6 +4,7 @@ import com.faikturan.productservice.dto.ProductRequest;
 import com.faikturan.productservice.dto.ProductResponse;
 import com.faikturan.productservice.model.Product;
 import com.faikturan.productservice.repository.ProductRepository;
+import jakarta.ws.rs.NotFoundException;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -31,7 +32,11 @@ public class ProductService {
                 product.getCategory());
     }
 
-    public List<ProductResponse> getAllProducts() {
+    public List<Product> getAllProducts() {
+        return productRepository.findAll();
+    }
+
+    public List<ProductResponse> getAllProduct() {
         return productRepository.findAll().stream().map(
                 this::mapProductToProductResponse).toList();
     }
@@ -41,8 +46,32 @@ public class ProductService {
                 .id(String.valueOf(product.getId()))
                 .name(product.getName())
                 .description(product.getDescription())
-                .price(product.getPrice())
+                .price(BigDecimal.valueOf(product.getPrice()))
                 .category(product.getCategory())
                 .build();
+    }
+
+    public Product getProductById(Long productId) {
+        return productRepository.findById(productId)
+                .orElseThrow(() -> new NotFoundException("Product not found with id: " + productId));
+    }
+
+    public Product updateProduct(Long productId, Product updatedProduct) {
+        // Add business logic if needed
+        Product existingProduct = getProductById(productId);
+        existingProduct.setName(updatedProduct.getName());
+        existingProduct.setPrice(updatedProduct.getPrice());
+        existingProduct.setCategory(updatedProduct.getCategory());
+        return productRepository.save(existingProduct);
+    }
+
+    public void deleteProduct(Long productId) {
+        // Add business logic if needed
+        productRepository.deleteById(productId);
+    }
+
+    public double calculateTotalValue() {
+        List<Product> products = getAllProducts();
+        return products.stream().mapToDouble(Product::getPrice).sum();
     }
 }

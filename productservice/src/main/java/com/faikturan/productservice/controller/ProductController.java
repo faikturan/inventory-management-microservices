@@ -2,6 +2,7 @@ package com.faikturan.productservice.controller;
 
 import com.faikturan.productservice.dto.ProductRequest;
 import com.faikturan.productservice.dto.ProductResponse;
+import com.faikturan.productservice.model.Product;
 import com.faikturan.productservice.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -27,6 +28,7 @@ public class ProductController {
     @GetMapping
     @ResponseStatus(HttpStatus.OK)
     public List<ProductResponse> getAllProducts() {
-        return productService.getAllProducts();
+        return productService.getAllProduct();
     }
+
 }
