@@ -15,3 +15,10 @@ Spring Data JPA
 Eureka Discovery Server
 PostgreSQL
 
+
+Run the Services:
+Start the Discovery Service.
+Start the Inventory Service.
+Start the Product Service.
+Start the Order Service.
+Start the API Gateway.
