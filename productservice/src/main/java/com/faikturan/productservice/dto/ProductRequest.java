@@ -6,8 +6,6 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.math.BigDecimal;
-
 @Data
 @Builder
 @AllArgsConstructor
@@ -17,4 +15,10 @@ public class ProductRequest {
     private String description;
     private double price;
     private Category category;
+
+    public ProductRequest(String testProduct, double v) {
+    }
+
+    public void setCategory(String testCategory) {
+    }
 }

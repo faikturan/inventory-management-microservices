@@ -1,0 +1,10 @@
+/Users/faikturan/Development/oneamz/oneamz-inventory-management-microservices/productservice/src/main/java/com/faikturan/productservice/repository/CategoryRepository.java
+/Users/faikturan/Development/oneamz/oneamz-inventory-management-microservices/productservice/src/main/java/com/faikturan/productservice/ProductserviceApplication.java
+/Users/faikturan/Development/oneamz/oneamz-inventory-management-microservices/productservice/src/main/java/com/faikturan/productservice/dto/ProductRequest.java
+/Users/faikturan/Development/oneamz/oneamz-inventory-management-microservices/productservice/src/main/java/com/faikturan/productservice/model/Product.java
+/Users/faikturan/Development/oneamz/oneamz-inventory-management-microservices/productservice/src/main/java/com/faikturan/productservice/repository/ProductRepository.java
+/Users/faikturan/Development/oneamz/oneamz-inventory-management-microservices/productservice/src/main/java/com/faikturan/productservice/configuration/SwaggerConfig.java
+/Users/faikturan/Development/oneamz/oneamz-inventory-management-microservices/productservice/src/main/java/com/faikturan/productservice/service/ProductService.java
+/Users/faikturan/Development/oneamz/oneamz-inventory-management-microservices/productservice/src/main/java/com/faikturan/productservice/dto/ProductResponse.java
+/Users/faikturan/Development/oneamz/oneamz-inventory-management-microservices/productservice/src/main/java/com/faikturan/productservice/model/Category.java
+/Users/faikturan/Development/oneamz/oneamz-inventory-management-microservices/productservice/src/main/java/com/faikturan/productservice/controller/ProductController.java

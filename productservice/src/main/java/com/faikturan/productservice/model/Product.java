@@ -21,4 +21,9 @@ public class Product {
     @JoinColumn(name = "category_id", nullable = false)
     private Category category;
 
+    public Product(String testProduct, int i) {
+    }
+
+    public Product(long id, String name, String description, double price, String s) {
+    }
 }
