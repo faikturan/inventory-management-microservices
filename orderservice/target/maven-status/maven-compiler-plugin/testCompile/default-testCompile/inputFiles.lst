@@ -1,0 +1,8 @@
+/Users/faikturan/Development/oneamz/oneamz-inventory-management-microservices/orderservice/src/test/java/com/faikturan/orderservice/controller/OrderControllerTest.java
+/Users/faikturan/Development/oneamz/oneamz-inventory-management-microservices/orderservice/src/test/java/com/faikturan/orderservice/dto/OrderLineItemsDtoTest.java
+/Users/faikturan/Development/oneamz/oneamz-inventory-management-microservices/orderservice/src/test/java/com/faikturan/orderservice/service/OrderServiceTest.java
+/Users/faikturan/Development/oneamz/oneamz-inventory-management-microservices/orderservice/src/test/java/com/faikturan/orderservice/model/OrderLineItemsTest.java
+/Users/faikturan/Development/oneamz/oneamz-inventory-management-microservices/orderservice/src/test/java/com/faikturan/orderservice/OrderserviceApplicationTests.java
+/Users/faikturan/Development/oneamz/oneamz-inventory-management-microservices/orderservice/src/test/java/com/faikturan/orderservice/dto/OrderRequestTest.java
+/Users/faikturan/Development/oneamz/oneamz-inventory-management-microservices/orderservice/src/test/java/com/faikturan/orderservice/model/OrderTest.java
+/Users/faikturan/Development/oneamz/oneamz-inventory-management-microservices/orderservice/src/test/java/com/faikturan/orderservice/service/OrderServiceIntegrationTest.java

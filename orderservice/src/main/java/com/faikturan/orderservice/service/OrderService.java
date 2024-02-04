@@ -55,7 +55,7 @@ public class OrderService {
         }
     }
 
-    private OrderLineItems mapToOrderLineItems(OrderLineItemsDto orderLineItemsDto) {
+    OrderLineItems mapToOrderLineItems(OrderLineItemsDto orderLineItemsDto) {
         return OrderLineItems.builder()
                 .id(orderLineItemsDto.getId())
                 .skuCode(orderLineItemsDto.getSkuCode())

@@ -1,0 +1,10 @@
+/Users/faikturan/Development/oneamz/oneamz-inventory-management-microservices/orderservice/src/main/java/com/faikturan/orderservice/dto/InventoryResponse.java
+/Users/faikturan/Development/oneamz/oneamz-inventory-management-microservices/orderservice/src/main/java/com/faikturan/orderservice/dto/OrderLineItemsDto.java
+/Users/faikturan/Development/oneamz/oneamz-inventory-management-microservices/orderservice/src/main/java/com/faikturan/orderservice/dto/OrderRequest.java
+/Users/faikturan/Development/oneamz/oneamz-inventory-management-microservices/orderservice/src/main/java/com/faikturan/orderservice/repository/OrderRepository.java
+/Users/faikturan/Development/oneamz/oneamz-inventory-management-microservices/orderservice/src/main/java/com/faikturan/orderservice/configuration/Configuration.java
+/Users/faikturan/Development/oneamz/oneamz-inventory-management-microservices/orderservice/src/main/java/com/faikturan/orderservice/model/OrderLineItems.java
+/Users/faikturan/Development/oneamz/oneamz-inventory-management-microservices/orderservice/src/main/java/com/faikturan/orderservice/OrderserviceApplication.java
+/Users/faikturan/Development/oneamz/oneamz-inventory-management-microservices/orderservice/src/main/java/com/faikturan/orderservice/model/Order.java
+/Users/faikturan/Development/oneamz/oneamz-inventory-management-microservices/orderservice/src/main/java/com/faikturan/orderservice/controller/OrderController.java
+/Users/faikturan/Development/oneamz/oneamz-inventory-management-microservices/orderservice/src/main/java/com/faikturan/orderservice/service/OrderService.java

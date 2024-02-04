@@ -1,9 +1,6 @@
 package com.faikturan.orderservice.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.RequiredArgsConstructor;
+import lombok.*;
 
 import java.math.BigDecimal;
 
@@ -14,6 +11,11 @@ import java.math.BigDecimal;
 public class OrderLineItemsDto {
     private Long id;
     private String skuCode;
-    private BigDecimal price;
+    private double price;
     private Integer quantity;
+
+    public OrderLineItemsDto(String skuCode, double price) {
+        this.skuCode = skuCode;
+        this.price = price;
+    }
 }

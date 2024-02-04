@@ -12,4 +12,8 @@ import lombok.RequiredArgsConstructor;
 public class InventoryResponse {
     private String skuCode;
     private boolean isInStock;
+
+    public InventoryResponse(boolean b) {
+        this.isInStock = b;
+    }
 }

@@ -9,9 +9,6 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
-import java.math.BigDecimal;
-
-import static jakarta.persistence.GenerationType.IDENTITY;
 
 @Entity
 @Data
@@ -23,6 +20,12 @@ public class OrderLineItems {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String skuCode;
-    private BigDecimal price;
+    private double price;
     private Integer quantity;
+
+    public OrderLineItems(String sku123, double price, int i) {
+        this.skuCode =sku123;
+        this.quantity = i;
+        this.price = price;
+    }
 }
